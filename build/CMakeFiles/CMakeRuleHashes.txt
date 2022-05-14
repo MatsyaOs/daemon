@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+bc131b7b9da69beeae459456cf6744eb CMakeFiles/cutefish-daemon_autogen
+9a2b790434fa52e846c5ff3e4ab9b195 appmanageradaptor.cpp
+37b56d08a81713c14f466d7569254208 appmanageradaptor.moc

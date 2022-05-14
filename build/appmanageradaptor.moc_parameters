@@ -1,0 +1,5 @@
+-I/home/tokyo/clone/cuteclone/daemon
+-I/home/tokyo/clone/cuteclone/daemon/build
+-o
+/home/tokyo/clone/cuteclone/daemon/build/appmanageradaptor.moc
+/home/tokyo/clone/cuteclone/daemon/build/appmanageradaptor.h

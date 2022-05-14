@@ -1,0 +1,3 @@
+/usr/bin/cutefish-daemon
+/etc/dbus-1/system.d/com.cutefish.Daemon.conf
+/usr/share/dbus-1/system-services/com.cutefish.Daemon.service
