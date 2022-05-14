@@ -1,6 +1,6 @@
-# CutefishOS Daemon
+# MatsyaOS Daemon
 
-CutefishOS backend
+MatsyaOS backend
 
 ## Dependencies
 

@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=com.matsya.Daemon
+Interface=com.matsya.Daemon
+Exec=/usr/bin/matsya-daemon
+User=root
