@@ -1,4 +1,4 @@
-# Install script for directory: /home/tokyo/clone/cuteclone/daemon
+# Install script for directory: /home/tokyo/Documents/GitHub/daemon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,51 +43,51 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/usr/bin/cutefish-daemon" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/cutefish-daemon")
+  if(EXISTS "$ENV{DESTDIR}/usr/bin/matsya-daemon" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/matsya-daemon")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/bin/cutefish-daemon"
+         FILE "$ENV{DESTDIR}/usr/bin/matsya-daemon"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/bin/cutefish-daemon")
+   "/usr/bin/matsya-daemon")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tokyo/clone/cuteclone/daemon/build/cutefish-daemon")
-  if(EXISTS "$ENV{DESTDIR}/usr/bin/cutefish-daemon" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/cutefish-daemon")
+file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tokyo/Documents/GitHub/daemon/build/matsya-daemon")
+  if(EXISTS "$ENV{DESTDIR}/usr/bin/matsya-daemon" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/matsya-daemon")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/cutefish-daemon")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/matsya-daemon")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/etc/dbus-1/system.d/com.cutefish.Daemon.conf")
+   "/etc/dbus-1/system.d/com.matsya.Daemon.conf")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/etc/dbus-1/system.d" TYPE FILE FILES "/home/tokyo/clone/cuteclone/daemon/src/com.cutefish.Daemon.conf")
+file(INSTALL DESTINATION "/etc/dbus-1/system.d" TYPE FILE FILES "/home/tokyo/Documents/GitHub/daemon/src/com.matsya.Daemon.conf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/share/dbus-1/system-services/com.cutefish.Daemon.service")
+   "/usr/share/dbus-1/system-services/com.matsya.Daemon.service")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/share/dbus-1/system-services" TYPE FILE FILES "/home/tokyo/clone/cuteclone/daemon/src/com.cutefish.Daemon.service")
+file(INSTALL DESTINATION "/usr/share/dbus-1/system-services" TYPE FILE FILES "/home/tokyo/Documents/GitHub/daemon/src/com.matsya.Daemon.service")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -98,5 +98,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tokyo/clone/cuteclone/daemon/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tokyo/Documents/GitHub/daemon/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

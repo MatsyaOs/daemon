@@ -1,5 +1,6 @@
-/home/tokyo/clone/cuteclone/daemon/build/cutefish-daemon_autogen/UVLADIE3JM/moc_appmanager.cpp: /home/tokyo/clone/cuteclone/daemon/src/appmanager.h \
-  /home/tokyo/clone/cuteclone/daemon/build/cutefish-daemon_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/daemon/build/matsya-daemon_autogen/UVLADIE3JM/moc_application.cpp: /home/tokyo/Documents/GitHub/daemon/src/application.h \
+  /home/tokyo/Documents/GitHub/daemon/build/matsya-daemon_autogen/moc_predefs.h \
+  /home/tokyo/Documents/GitHub/daemon/src/appmanager.h \
   /usr/include/QApt/Backend \
   /usr/include/QApt/Transaction \
   /usr/include/apt-pkg/cacheiterators.h \
@@ -193,6 +194,7 @@
   /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QCoreApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QDateTime \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QHash \
@@ -215,7 +217,10 @@
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \

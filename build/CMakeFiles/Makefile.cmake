@@ -141,12 +141,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.18.4/CMakeSystem.cmake"
   "CMakeFiles/3.18.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.18.4/CMakeCXXCompiler.cmake"
-  "CMakeFiles/cutefish-daemon_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/matsya-daemon_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/cutefish-daemon.dir/DependInfo.cmake"
-  "CMakeFiles/cutefish-daemon_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/matsya-daemon.dir/DependInfo.cmake"
+  "CMakeFiles/matsya-daemon_autogen.dir/DependInfo.cmake"
   )

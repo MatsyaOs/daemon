@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_AppManagerAdaptor_t {
     QByteArrayData data[8];
-    char stringdata0[265];
+    char stringdata0[261];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,19 +34,19 @@ static const qt_meta_stringdata_AppManagerAdaptor_t qt_meta_stringdata_AppManage
     {
 QT_MOC_LITERAL(0, 0, 17), // "AppManagerAdaptor"
 QT_MOC_LITERAL(1, 18, 15), // "D-Bus Interface"
-QT_MOC_LITERAL(2, 34, 23), // "com.cutefish.AppManager"
-QT_MOC_LITERAL(3, 58, 19), // "D-Bus Introspection"
-QT_MOC_LITERAL(4, 78, 169), // "  <interface name=\"com.cutef..."
-QT_MOC_LITERAL(5, 233, 9), // "uninstall"
-QT_MOC_LITERAL(6, 243, 0), // ""
-QT_MOC_LITERAL(7, 244, 5) // "value"
+QT_MOC_LITERAL(2, 34, 21), // "com.matsya.AppManager"
+QT_MOC_LITERAL(3, 56, 19), // "D-Bus Introspection"
+QT_MOC_LITERAL(4, 76, 167), // "  <interface name=\"com.matsy..."
+QT_MOC_LITERAL(5, 229, 9), // "uninstall"
+QT_MOC_LITERAL(6, 239, 0), // ""
+QT_MOC_LITERAL(7, 240, 5) // "value"
 
     },
     "AppManagerAdaptor\0D-Bus Interface\0"
-    "com.cutefish.AppManager\0D-Bus Introspection\0"
-    "  <interface name=\"com.cutefish.AppManager\">\n    <method name=\"uni"
-    "nstall\">\n      <arg direction=\"in\" type=\"s\" name=\"value\"/>\n  "
-    "  </method>\n  </interface>\n\0"
+    "com.matsya.AppManager\0D-Bus Introspection\0"
+    "  <interface name=\"com.matsya.AppManager\">\n    <method name=\"unins"
+    "tall\">\n      <arg direction=\"in\" type=\"s\" name=\"value\"/>\n    "
+    "</method>\n  </interface>\n\0"
     "uninstall\0\0value"
 };
 #undef QT_MOC_LITERAL

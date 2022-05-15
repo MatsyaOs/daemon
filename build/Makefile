@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/daemon
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/daemon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/daemon/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/daemon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/daemon/build/CMakeFiles /home/tokyo/clone/cuteclone/daemon/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/daemon/build/CMakeFiles /home/tokyo/Documents/GitHub/daemon/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/daemon/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/daemon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,30 +176,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cutefish-daemon
+# Target rules for targets named matsya-daemon
 
 # Build rule for target.
-cutefish-daemon: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-daemon
-.PHONY : cutefish-daemon
+matsya-daemon: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-daemon
+.PHONY : matsya-daemon
 
 # fast build rule for target.
-cutefish-daemon/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/build
-.PHONY : cutefish-daemon/fast
+matsya-daemon/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/build
+.PHONY : matsya-daemon/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-daemon_autogen
+# Target rules for targets named matsya-daemon_autogen
 
 # Build rule for target.
-cutefish-daemon_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-daemon_autogen
-.PHONY : cutefish-daemon_autogen
+matsya-daemon_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-daemon_autogen
+.PHONY : matsya-daemon_autogen
 
 # fast build rule for target.
-cutefish-daemon_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon_autogen.dir/build.make CMakeFiles/cutefish-daemon_autogen.dir/build
-.PHONY : cutefish-daemon_autogen/fast
+matsya-daemon_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon_autogen.dir/build.make CMakeFiles/matsya-daemon_autogen.dir/build
+.PHONY : matsya-daemon_autogen/fast
 
 appmanageradaptor.o: appmanageradaptor.cpp.o
 
@@ -207,7 +207,7 @@ appmanageradaptor.o: appmanageradaptor.cpp.o
 
 # target to build an object file
 appmanageradaptor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/appmanageradaptor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/appmanageradaptor.cpp.o
 .PHONY : appmanageradaptor.cpp.o
 
 appmanageradaptor.i: appmanageradaptor.cpp.i
@@ -216,7 +216,7 @@ appmanageradaptor.i: appmanageradaptor.cpp.i
 
 # target to preprocess a source file
 appmanageradaptor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/appmanageradaptor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/appmanageradaptor.cpp.i
 .PHONY : appmanageradaptor.cpp.i
 
 appmanageradaptor.s: appmanageradaptor.cpp.s
@@ -225,35 +225,35 @@ appmanageradaptor.s: appmanageradaptor.cpp.s
 
 # target to generate assembly for a file
 appmanageradaptor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/appmanageradaptor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/appmanageradaptor.cpp.s
 .PHONY : appmanageradaptor.cpp.s
 
-cutefish-daemon_autogen/mocs_compilation.o: cutefish-daemon_autogen/mocs_compilation.cpp.o
+matsya-daemon_autogen/mocs_compilation.o: matsya-daemon_autogen/mocs_compilation.cpp.o
 
-.PHONY : cutefish-daemon_autogen/mocs_compilation.o
+.PHONY : matsya-daemon_autogen/mocs_compilation.o
 
 # target to build an object file
-cutefish-daemon_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/cutefish-daemon_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-daemon_autogen/mocs_compilation.cpp.o
+matsya-daemon_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/matsya-daemon_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-daemon_autogen/mocs_compilation.cpp.o
 
-cutefish-daemon_autogen/mocs_compilation.i: cutefish-daemon_autogen/mocs_compilation.cpp.i
+matsya-daemon_autogen/mocs_compilation.i: matsya-daemon_autogen/mocs_compilation.cpp.i
 
-.PHONY : cutefish-daemon_autogen/mocs_compilation.i
+.PHONY : matsya-daemon_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-cutefish-daemon_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/cutefish-daemon_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-daemon_autogen/mocs_compilation.cpp.i
+matsya-daemon_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/matsya-daemon_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-daemon_autogen/mocs_compilation.cpp.i
 
-cutefish-daemon_autogen/mocs_compilation.s: cutefish-daemon_autogen/mocs_compilation.cpp.s
+matsya-daemon_autogen/mocs_compilation.s: matsya-daemon_autogen/mocs_compilation.cpp.s
 
-.PHONY : cutefish-daemon_autogen/mocs_compilation.s
+.PHONY : matsya-daemon_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-cutefish-daemon_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/cutefish-daemon_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-daemon_autogen/mocs_compilation.cpp.s
+matsya-daemon_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/matsya-daemon_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-daemon_autogen/mocs_compilation.cpp.s
 
 src/application.o: src/application.cpp.o
 
@@ -261,7 +261,7 @@ src/application.o: src/application.cpp.o
 
 # target to build an object file
 src/application.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/src/application.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/src/application.cpp.o
 .PHONY : src/application.cpp.o
 
 src/application.i: src/application.cpp.i
@@ -270,7 +270,7 @@ src/application.i: src/application.cpp.i
 
 # target to preprocess a source file
 src/application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/src/application.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/src/application.cpp.i
 .PHONY : src/application.cpp.i
 
 src/application.s: src/application.cpp.s
@@ -279,7 +279,7 @@ src/application.s: src/application.cpp.s
 
 # target to generate assembly for a file
 src/application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/src/application.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/src/application.cpp.s
 .PHONY : src/application.cpp.s
 
 src/appmanager.o: src/appmanager.cpp.o
@@ -288,7 +288,7 @@ src/appmanager.o: src/appmanager.cpp.o
 
 # target to build an object file
 src/appmanager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/src/appmanager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/src/appmanager.cpp.o
 .PHONY : src/appmanager.cpp.o
 
 src/appmanager.i: src/appmanager.cpp.i
@@ -297,7 +297,7 @@ src/appmanager.i: src/appmanager.cpp.i
 
 # target to preprocess a source file
 src/appmanager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/src/appmanager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/src/appmanager.cpp.i
 .PHONY : src/appmanager.cpp.i
 
 src/appmanager.s: src/appmanager.cpp.s
@@ -306,7 +306,7 @@ src/appmanager.s: src/appmanager.cpp.s
 
 # target to generate assembly for a file
 src/appmanager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/src/appmanager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/src/appmanager.cpp.s
 .PHONY : src/appmanager.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -315,7 +315,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -324,7 +324,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -333,7 +333,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-daemon.dir/build.make CMakeFiles/cutefish-daemon.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-daemon.dir/build.make CMakeFiles/matsya-daemon.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -348,14 +348,14 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-daemon_autogen"
-	@echo "... cutefish-daemon"
+	@echo "... matsya-daemon_autogen"
+	@echo "... matsya-daemon"
 	@echo "... appmanageradaptor.o"
 	@echo "... appmanageradaptor.i"
 	@echo "... appmanageradaptor.s"
-	@echo "... cutefish-daemon_autogen/mocs_compilation.o"
-	@echo "... cutefish-daemon_autogen/mocs_compilation.i"
-	@echo "... cutefish-daemon_autogen/mocs_compilation.s"
+	@echo "... matsya-daemon_autogen/mocs_compilation.o"
+	@echo "... matsya-daemon_autogen/mocs_compilation.i"
+	@echo "... matsya-daemon_autogen/mocs_compilation.s"
 	@echo "... src/application.o"
 	@echo "... src/application.i"
 	@echo "... src/application.s"

@@ -14,9 +14,9 @@ QApt/Backend
 QApt/Transaction
 -
 
-/home/tokyo/clone/cuteclone/daemon/build/appmanageradaptor.cpp
+/home/tokyo/Documents/GitHub/daemon/build/appmanageradaptor.cpp
 appmanageradaptor.h
-/home/tokyo/clone/cuteclone/daemon/build/appmanageradaptor.h
+/home/tokyo/Documents/GitHub/daemon/build/appmanageradaptor.h
 QtCore/QMetaObject
 -
 QtCore/QByteArray
@@ -32,77 +32,77 @@ QtCore/QStringList
 QtCore/QVariant
 -
 appmanageradaptor.moc
-/home/tokyo/clone/cuteclone/daemon/build/appmanageradaptor.moc
+/home/tokyo/Documents/GitHub/daemon/build/appmanageradaptor.moc
 
-/home/tokyo/clone/cuteclone/daemon/build/appmanageradaptor.h
+/home/tokyo/Documents/GitHub/daemon/build/appmanageradaptor.h
 QtCore/QObject
 -
 QtDBus/QtDBus
 -
 src/appmanager.h
-/home/tokyo/clone/cuteclone/daemon/build/src/appmanager.h
+/home/tokyo/Documents/GitHub/daemon/build/src/appmanager.h
 
-/home/tokyo/clone/cuteclone/daemon/build/appmanageradaptor.moc
+/home/tokyo/Documents/GitHub/daemon/build/appmanageradaptor.moc
 memory
 -
 appmanageradaptor.h
-/home/tokyo/clone/cuteclone/daemon/build/appmanageradaptor.h
+/home/tokyo/Documents/GitHub/daemon/build/appmanageradaptor.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/cuteclone/daemon/build/cutefish-daemon_autogen/UVLADIE3JM/moc_application.cpp
+/home/tokyo/Documents/GitHub/daemon/build/matsya-daemon_autogen/UVLADIE3JM/moc_application.cpp
 memory
 -
 ../../../src/application.h
-/home/tokyo/clone/cuteclone/daemon/src/application.h
+/home/tokyo/Documents/GitHub/daemon/src/application.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/cuteclone/daemon/build/cutefish-daemon_autogen/UVLADIE3JM/moc_appmanager.cpp
+/home/tokyo/Documents/GitHub/daemon/build/matsya-daemon_autogen/UVLADIE3JM/moc_appmanager.cpp
 memory
 -
 ../../../src/appmanager.h
-/home/tokyo/clone/cuteclone/daemon/src/appmanager.h
+/home/tokyo/Documents/GitHub/daemon/src/appmanager.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/cuteclone/daemon/build/cutefish-daemon_autogen/mocs_compilation.cpp
+/home/tokyo/Documents/GitHub/daemon/build/matsya-daemon_autogen/mocs_compilation.cpp
 UVLADIE3JM/moc_application.cpp
-/home/tokyo/clone/cuteclone/daemon/build/cutefish-daemon_autogen/UVLADIE3JM/moc_application.cpp
+/home/tokyo/Documents/GitHub/daemon/build/matsya-daemon_autogen/UVLADIE3JM/moc_application.cpp
 UVLADIE3JM/moc_appmanager.cpp
-/home/tokyo/clone/cuteclone/daemon/build/cutefish-daemon_autogen/UVLADIE3JM/moc_appmanager.cpp
+/home/tokyo/Documents/GitHub/daemon/build/matsya-daemon_autogen/UVLADIE3JM/moc_appmanager.cpp
 
-/home/tokyo/clone/cuteclone/daemon/src/application.cpp
+/home/tokyo/Documents/GitHub/daemon/src/application.cpp
 application.h
-/home/tokyo/clone/cuteclone/daemon/src/application.h
+/home/tokyo/Documents/GitHub/daemon/src/application.h
 QDBusConnection
 -
 QDebug
 -
 
-/home/tokyo/clone/cuteclone/daemon/src/application.h
+/home/tokyo/Documents/GitHub/daemon/src/application.h
 QCoreApplication
 -
 appmanager.h
-/home/tokyo/clone/cuteclone/daemon/src/appmanager.h
+/home/tokyo/Documents/GitHub/daemon/src/appmanager.h
 
-/home/tokyo/clone/cuteclone/daemon/src/appmanager.cpp
+/home/tokyo/Documents/GitHub/daemon/src/appmanager.cpp
 appmanager.h
-/home/tokyo/clone/cuteclone/daemon/src/appmanager.h
+/home/tokyo/Documents/GitHub/daemon/src/appmanager.h
 appmanageradaptor.h
-/home/tokyo/clone/cuteclone/daemon/src/appmanageradaptor.h
+/home/tokyo/Documents/GitHub/daemon/src/appmanageradaptor.h
 QDBusInterface
 -
 QDebug
 -
 
-/home/tokyo/clone/cuteclone/daemon/src/appmanager.h
+/home/tokyo/Documents/GitHub/daemon/src/appmanager.h
 QObject
 -
 QApt/Backend
@@ -110,9 +110,9 @@ QApt/Backend
 QApt/Transaction
 -
 
-/home/tokyo/clone/cuteclone/daemon/src/main.cpp
+/home/tokyo/Documents/GitHub/daemon/src/main.cpp
 application.h
-/home/tokyo/clone/cuteclone/daemon/src/application.h
+/home/tokyo/Documents/GitHub/daemon/src/application.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
 qbytearray.h
