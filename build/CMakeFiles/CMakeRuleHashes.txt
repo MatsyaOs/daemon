@@ -1,4 +1,0 @@
-# Hashes of file build rules.
-9ce68b0bdaffae388e9d1d71e92c0cef CMakeFiles/matsya-daemon_autogen
-90ac0202de784f8b2fb28955f1cce3cc appmanageradaptor.cpp
-4e9141e2db46f97fe56b835c43692ea5 appmanageradaptor.moc
